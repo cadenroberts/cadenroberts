@@ -1,16 +1,56 @@
-## Hi there 👋
+# Hi, I'm Caden 👋
 
-<!--
-**cadenroberts/cadenroberts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Machine Learning Engineer building **agentic AI systems, LLM pipelines, and ML infrastructure**.
 
-Here are some ideas to get you started:
+I design multi-stage AI workflows that combine:
+- Retrieval + LLM reasoning
+- Automation pipelines
+- GPU-accelerated ML systems
+- Real-world integration into business and research workflows
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Highlight Projects
+
+### 🧠 CliniRepGen — LLM-Based Regulatory Report Generation
+Production-style pipeline for generating CONSORT / ICH-E3 clinical trial reports from heterogeneous biomedical data.
+- Multi-stage system: ingestion → retrieval → LLM generation → structured post-processing  
+- Traceable source attribution and transformation pipelines  
+- Designed for reusable automated reporting workflows  
+
+### 🤖 Agentic Automation @ Paystand
+Internal AI systems for marketing and finance automation.
+- Multi-step SEO content agent (crawl → retrieve → LLM draft → evaluation)
+- AI-driven OPEX variance analysis system with automated financial narratives
+- Focus on workflow integration and measurable impact
+
+### 🧬 ClinImCL — Self-Supervised MRI Representation Learning
+- Contrastive learning pipeline using PyTorch + MONAI  
+- GPU training on large-scale longitudinal MRI data  
+- Embedding evaluation via UMAP + similarity metrics  
+
+### 💬 iMessageAI — Local LLM Messaging Assistant
+- macOS SwiftUI app using local LLM inference (Ollama)
+- Event-driven message parsing + AI reply generation
+- Python ↔ SwiftUI integration layer
+
+### 🖐 TheraHand — Full Stack + Embedded Rehab System
+- React + Node.js + PostgreSQL platform for therapy workflows  
+- OpenAPI-defined backend  
+- ESP32-based device communication and data integration  
+
+---
+
+## 🧠 Interests
+
+- Agentic AI systems  
+- LLM evaluation and orchestration  
+- Automation of complex workflows  
+- ML infrastructure and GPU pipelines  
+- AI for science and healthcare  
+
+---
+
+📫 **Reach me:**  
+LinkedIn: https://linkedin.com/in/cwro  
+Email: cawrober@ucsc.edu
