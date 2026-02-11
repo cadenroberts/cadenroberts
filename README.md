@@ -4,7 +4,7 @@ AI Infrastructure & Production ML Systems Engineer
 
 ## Summary
 
-I build production ML infrastructure where models operate as components within multi-stage systems. Work spans LLM evaluation frameworks, distributed GPU workflows, and deterministic orchestration for regulated and compute-intensive environments.
+I build production ML infrastructure where models operate as components within multi-stage systems. Work spans LLM evaluation frameworks, distributed GPU workflows, and deterministic orchestration.
 
 ## What I Do
 
@@ -15,7 +15,7 @@ I build production ML infrastructure where models operate as components within m
 
 ## Architecture
 
-```
+```text
 ┌─────────────────────────────────────────────────────────┐
 │                   Production Systems                    │
 ├─────────────────────────────────────────────────────────┤
@@ -27,6 +27,7 @@ I build production ML infrastructure where models operate as components within m
 ```
 
 **Core principles:**
+
 - Models as components, not endpoints
 - Deterministic evaluation before production release
 - Cost-aware routing across providers
@@ -35,23 +36,28 @@ I build production ML infrastructure where models operate as components within m
 ## Selected Systems
 
 ### CliniRepGen — Regulatory reporting platform
+
 Multi-stage pipeline for CONSORT and ICH-E3 clinical trial reports. Ingestion → extraction → synthesis → critique with deterministic provenance and iterative refinement.
 
 **Repo:** [cadenroberts/CliniRepGen](https://github.com/cadenroberts/CliniRepGen)
 
 ### Production automation (Paystand)
+
 LLM-driven automation for marketing and finance workflows:
+
 - Content orchestration: crawl → retrieval → drafting → adversarial evaluation → publishing
 - Consensus evaluation: 50 grading agents, 88 criteria, >=90% supermajority approval gate
 - OPEX variance analysis: Oracle NetSuite + Abacum integration, automated monthly variance commentary (>70% automation rate)
 - Cost-aware model routing with latency optimization
 
 ### ClinImCL — Longitudinal MRI representation learning
+
 Distributed self-supervised contrastive learning for 3D longitudinal MRI. Processes 3,000+ scans on GPU clusters. Generates stable embeddings validated via UMAP and cosine similarity.
 
 **Repo:** [cadenroberts/ClinImCL](https://github.com/cadenroberts/ClinImCL)
 
 ### OllamaBot — Multi-model agent orchestration runtime
+
 Native macOS IDE for autonomous multi-model orchestration over local LLMs. Structured tool execution with priority-based context budgeting, frame-coalesced streaming, and deterministic tool routing.
 
 **Repo:** [cadenroberts/OllamaBot](https://github.com/cadenroberts/OllamaBot)
@@ -78,6 +84,7 @@ Validation commands and pass/fail criteria documented in project-specific `EVAL.
 ## Repository Standards
 
 All flagship repositories include:
+
 - `ARCHITECTURE.md` — component diagrams, execution flow, contracts
 - `DESIGN_DECISIONS.md` — ADR-style entries with context, decision, consequences
 - `EVAL.md` — correctness criteria, reproducible validation commands
@@ -87,7 +94,7 @@ All flagship repositories include:
 
 ## Repository Layout
 
-```
+```text
 cadenroberts/
 ├── README.md              # this file
 ├── ARCHITECTURE.md        # GitHub profile repository pattern
@@ -108,9 +115,10 @@ cadenroberts/
 
 ## Limitations
 
-This repository is a static landing page (GitHub profile README). No executable code, server, or build target. Content rendered by GitHub's Markdown engine. Validation limited to link checking, Markdown linting, and manual review.
+This repository is a static landing page (GitHub profile README). No executable code, server, or build target.
+Content rendered by GitHub's Markdown engine. Validation limited to link checking, Markdown linting, and manual review.
 
 ---
 
 **LinkedIn:** [linkedin.com/in/cwro](https://linkedin.com/in/cwro)  
-**Email:** cawrober@ucsc.edu
+**Email:** [cawrober@ucsc.edu](mailto:cawrober@ucsc.edu)
